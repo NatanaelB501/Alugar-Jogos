@@ -7,6 +7,7 @@ function alterarStatus(id) {
         imagem.classList.remove('dashboard__item__img--rented');
         botao.textContent = 'Alugar';
         botao.classList.remove('dashboard__item__button--return');
+        alert(`O jogo foi devolvido`);
 
     } else {
         imagem.classList.add('dashboard__item__img--rented');
